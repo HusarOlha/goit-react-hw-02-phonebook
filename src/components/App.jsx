@@ -37,7 +37,7 @@ class App extends Component {
   };
   nameInputId = nanoid();
   render() {
-    const { name, number } = this.state;
+    // const { name, number } = this.state;
     const visibleContacts = this.getVisibleContacts();
     return (
       <div>
